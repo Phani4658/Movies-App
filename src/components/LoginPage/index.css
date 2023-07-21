@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap');
+
+#loginSection {
+  background: #131313;
+  padding: 32px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+img[alt='login website logo'] {
+  width: 100px;
+  height: 27px;
+}
+
+#loginSection form {
+  margin-top: 105px;
+  font-family: 'Hanken Grotesk';
+  color: #fff;
+}
+
+.login-form-heading {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.field-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-field {
+  width: 100%;
+  background-color: #333;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 0 8px 16px;
+  color: #e2e8f0;
+  outline: none;
+}
+
+.form-field-container {
+  margin-bottom: 16px;
+}
+
+#signInBtn {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  margin-top: 24px;
+  text-align: center;
+  background: #e50914;
+  width: 100%;
+  color: #fff;
+}
+
+.error-msg {
+  font-size: 14px;
+  color: #dc2626;
+  font-weight: 400;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #loginSection {
+    background: url('https://res.cloudinary.com/dv0oedkxm/image/upload/v1686423532/Movies-A-Netflix-clone/LoginBackground_vpyjar.png');
+    background-size: cover;
+    padding: 48px 156px;
+  }
+
+  img[alt='login website logo'] {
+    width: 180px;
+    height: 52px;
+  }
+
+  #loginSection form {
+    width: 456px;
+    margin: auto;
+    background: #0c0b1090;
+    padding: 64px 48px;
+    font-weight: 600;
+  }
+
+  .login-form-heading {
+    text-align: center;
+  }
+
+  .form-field-container {
+    margin-bottom: 24px;
+  }
+
+  #signInBtn {
+    margin-top: 24px;
+    font-weight: 600;
+  }
+}
