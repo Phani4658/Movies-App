@@ -89,7 +89,7 @@ const LoginPage = props => {
         {loginPagePasswordField()}
         {!isSuccessful && <p className="error-msg">{errorMsg}</p>}
         <button id="signInBtn" type="submit" onClick={onClickLoginButton}>
-          Sign in
+          Login
         </button>
       </form>
     </section>
